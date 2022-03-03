@@ -11,7 +11,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 Command: `nmap -sV 192.168.1.110`
 
-![](/https://github.com/Framesjanco2/Final-Project/blob/main/Images/Nmap-Scan.PNG)
+![](/https://github.com/Framesjanco2/Final-Project/main/Images/Nmap-Scan.PNG)
 
 This scan identifies the services below as potential points of entry:
 - Target 1
