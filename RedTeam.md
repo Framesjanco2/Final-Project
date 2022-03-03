@@ -20,7 +20,9 @@ This scan identifies the services below as potential points of entry:
   - Port80/TCP Open HTTP  
   - Port111/TCP Open rcpbind  
   - Port139/TCP Open netbios-ssn  
-  - Port 445/TCP Open netbios-ssn
+  - Port 445/TCP Open netbios-ssn  
+ 
+### Critical Vulnerabilities
 
 The following vulnerabilities were identified on each target:  
 
