@@ -1,16 +1,28 @@
-# Network Forensic Analysis Report
+# Network Forensic Analysis Report  
 
-_TODO_ Complete this report as you complete the Network Activity on Day 3 of class.
+## Time Thieves  
 
-## Time Thieves 
-You must inspect your traffic capture to answer the following questions:
+At least two users on the network have been wasting time on YouTube. Usually, IT wouldn't pay much mind to this behavior, but it seems these people have created their own web server on the corporate network. So far, Security knows the following about these time thieves:  
 
-1. What is the domain name of the users' custom site?
-2. What is the IP address of the Domain Controller (DC) of the AD network?
-3. What is the name of the malware downloaded to the 10.6.12.203 machine?
-   - Once you have found the file, export it to your Kali machine's desktop.
-4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
-5. What kind of malware is this classified as?
+- They have set up an Active Directory network.  
+- They are constantly watching videos on YouTube.  
+- Their IP addresses are somewhere in the range 10.6.12.0/24.  
+
+1. What is the domain name of the users' custom site?  
+  
+The Domain name of the users custome site is **Frank-n-Ted-DC.frank-n-ted.com**  
+
+2. What is the IP address of the Domain Controller (DC) of the AD network?  
+  
+The IP address for Frank-n-Ted-DC.frank-n-ted.com is **10.6.12.12**  
+
+3. What is the name of the malware downloaded to the 10.6.12.203 machine? Once you have found the file, export it to your Kali machine's desktop. 
+
+The malware is titled **june11.dll**      
+    
+4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). What kind of malware is this classified as?  
+
+This file is classified as a trojan 
 
 ---
 
